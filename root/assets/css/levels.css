@@ -1,0 +1,328 @@
+.badge {
+    font-size: 11px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    width: 16px;
+    height: 16px;
+    line-height: 15px;
+    border-radius: 100%;
+    padding: 0;
+    min-width: auto;
+    display: inline-block;
+    text-align: center;
+    color: #efefef;
+}
+
+.badge-huge {
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 20px !important;
+    line-height: 50px !important;
+    position: relative !important;
+}
+.badge-normal {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    position: relative !important;
+}
+.badge-small {
+    width: 25px !important;
+    height: 25px !important;
+    font-size: 19px !important;
+    line-height: 25px !important;
+    position: relative !important;
+}
+.badge-small2 {
+    width: 16px !important;
+    height: 16px !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    position: relative !important;
+}
+.titleBadge {
+    top: 5px!important;
+}
+
+.badge-level-1 {
+    background: #4D4757;
+}
+.badge-level-2 {
+    background: #4A3568;
+}
+.badge-level-3 {
+    background: #462278;
+}
+.badge-level-4 {
+    background: #420E88;
+}
+.badge-level-5 {
+    background: #3E0099;
+}
+.badge-level-6 {
+    background: #19456A;
+}
+.badge-level-7 {
+    background: #1F547F;
+}
+.badge-level-8 {
+    background: #2A72AA;
+}
+.badge-level-9 {
+    background: #5398CD;
+}
+.badge-level-10 {
+    background: #5398CD;
+}
+.badge-level-11 {
+    background: #255400;
+}
+.badge-level-12 {
+    background: #2B5F00;
+}
+.badge-level-13 {
+    background: #3A7F00;
+}
+.badge-level-14 {
+    background: #4AA000;
+}
+.badge-level-15 {
+    color: #1C3F00!important;
+    background: #5DC900;
+}
+.badge-level-16 {
+    color: #6B2209!important;
+    background: #D7A820;
+}
+.badge-level-17 {
+    color: #481602!important;
+    background: #FF971C;
+}
+.badge-level-18 {
+    background: #FF6713;
+}
+.badge-level-19 {
+    background: #910200;
+}
+.badge-level-20 {
+    background: #FF0500;
+    box-shadow: 0 0 9px rgba(255, 5, 0, 1);
+    border: 1px solid rgba(255, 255, 255, .11);
+    -webkit-animation-name: redPulse;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: redPulse;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-iteration-count: infinite;
+    animation-name: redPulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes redPulse {
+    from {
+        -webkit-box-shadow: 0 0 9px rgba(255, 5, 0, 1);
+        -moz-box-shadow: 0 0 9px rgba(255, 5, 0, 1);
+        box-shadow: 0 0 9px rgba(255, 5, 0, 1);
+    }
+    50% {
+        -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    to {
+        -webkit-box-shadow: 0 0 9px rgba(255, 5, 0, 1);
+        -moz-box-shadow: 0 0 9px rgba(255, 5, 0, 1);
+        box-shadow: 0 0 9px rgba(255, 5, 0, 1);
+    }
+}
+.level-1 {
+    background: #4D4757 !important;
+}
+.level-2 {
+    background: #4A3568;
+}
+.level-3 {
+    background: #462278;
+}
+.level-4 {
+    background: #420E88;
+}
+.level-5 {
+    background: #3E0099;
+}
+.level-6 {
+    background: #19456A;
+}
+.level-7 {
+    background: #1F547F;
+}
+.level-8 {
+    background: #2A72AA;
+}
+.level-9 {
+    background: #5398CD;
+}
+.level-10 {
+    background: #5398CD;
+}
+.level-11 {
+    background: #255400;
+}
+.level-12 {
+    background: #2B5F00;
+}
+.level-13 {
+    background: #3A7F00;
+}
+.level-14 {
+    background: #4AA000;
+}
+.level-15 {
+    color: #1C3F00!important;
+    background: #5DC900;
+}
+.level-16 {
+    color: #6B2209!important;
+    background: #D7A720;
+}
+.level-17 {
+    color: #481602!important;
+    background: #FF971C;
+}
+.level-18 {
+    background: #FF6713;
+}
+.level-19 {
+    background: #910200;
+}
+
+.level-20 {
+    background: #FF0500;
+    box-shadow: 0 0 4px rgba(255, 0, 07, .8);
+    border: 1px solid #910200;
+    -webkit-animation-name: redPulse;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+}
+.level-1-borda {
+    border: 1px solid #4D4757;
+}
+.level-2-borda {
+    border: 1px solid #4A3568;
+}
+.level-3-borda {
+    border: 1px solid #462278;
+}
+.level-4-borda {
+    border: 1px solid #420E88;
+}
+.level-5-borda {
+    border: 1px solid #3E0099;
+}
+.level-6-borda {
+    border: 1px solid #19456A;
+}
+.level-7-borda {
+    border: 1px solid #1F547F;
+}
+.level-8-borda {
+    border: 1px solid #2A72AA;
+}
+.level-9-borda {
+    border: 1px solid #5398CD;
+}
+.level-10-borda {
+    border: 1px solid #5398CD;
+}
+.level-11-borda {
+    border: 1px solid #255400;
+}
+.level-12-borda {
+    border: 1px solid #2B5F00;
+}
+.level-13-borda {
+    border: 1px solid #3A7F00;
+}
+.level-14-borda {
+    border: 1px solid #4AA000;
+}
+.level-15-borda {
+    border: 1px solid #5DC900;
+}
+.level-16-borda {
+    border: 1px solid #D7A820;
+}
+.level-17-borda {
+    border: 1px solid #FF971C;
+}
+.level-18-borda {
+    border: 1px solid #FF6713;
+}
+.level-19-borda {
+    border: 1px solid #910200;
+}
+.level-20-borda {
+    border: 1px solid #FF0500;
+}
+
+
+.level-20:after {
+    content: "20";
+}
+.level-19:after {
+    content: "19";
+}
+.level-18:after {
+    content: "18";
+}
+.level-17:after {
+    content: "17";
+}
+.level-16:after {
+    content: "16";
+}
+.level-15:after {
+    content: "15";
+}
+.level-14:after {
+    content: "14";
+}
+.level-13:after {
+    content: "13";
+}
+.level-12:after {
+    content: "12";
+}
+.level-11:after {
+    content: "11";
+}
+.level-10:after {
+    content: "10";
+}
+.level-9:after {
+    content: "9";
+}
+.level-8:after {
+    content: "8";
+}
+.level-7:after {
+    content: "7";
+}
+.level-6:after {
+    content: "6";
+}
+.level-5:after {
+    content: "5";
+}
+.level-4:after {
+    content: "4";
+}
+.level-3:after {
+    content: "3";
+}
+.level-2:after {
+    content: "2";
+}
+.level-1:after {
+    content: "1";
+}

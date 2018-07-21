@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^serveradmin$ /server.php [L,QSA,NC]
+
+RewriteRule ^generate$ /gen.php [L,QSA,NC]
+
+#RewriteRule ^\.php$ [QSA,NC,R=404]]

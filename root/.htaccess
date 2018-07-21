@@ -1,0 +1,34 @@
+RewriteEngine On
+
+ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^home$ /index.php [L,QSA,NC]
+RewriteRule ^inicio$ /index.php [L,QSA,NC]
+
+RewriteRule ^profile/([0-9]{1,17})$ /profile.php?profile=$1 [L,QSA,NC]
+RewriteRule ^perfil/([0-9]{1,17})$ /profile.php?profile=$1 [L,QSA,NC]
+
+RewriteRule ^my /my.php [L,QSA,NC]
+RewriteRule ^eu$ /my.php [L,QSA,NC]
+
+RewriteRule ^play$ /play.php [L,QSA,NC]
+RewriteRule ^jogar$ /play.php [L,QSA,NC]
+
+RewriteRule ^support$ /support.php [L,QSA,NC]
+RewriteRule ^suporte$ /support.php [L,QSA,NC]
+
+RewriteRule ^contact$ /support.php [L,QSA,NC]
+RewriteRule ^contato$ /support.php [L,QSA,NC]
+
+RewriteRule ^servers$ /servers.php [L,QSA,NC]
+RewriteRule ^servidores$ /servers.php [L,QSA,NC]
+
+RewriteRule ^play/join$ /ajax.php?action=join [L,QSA,NC]
+RewriteRule ^play/leave$ /ajax.php?action=leave [L,QSA,NC]
+RewriteRule ^play/ready$ /ajax.php?action=ready [L,QSA,NC]
+RewriteRule ^play/update$ /ajax.php?action=update [L,QSA,NC]
+
+#RewriteRule ^\.php$ [QSA,NC,R=404]
